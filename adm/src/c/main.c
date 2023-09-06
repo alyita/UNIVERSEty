@@ -1,12 +1,19 @@
 #include <stdio.h>
 #include <stdio.h>
-#include "printer.c"
+#include "lib/printer.c"
+
+#define STATE int
+#define STABLE 1
+#define UNSTABLE 0
 
 int main(){
+    STATE state = UNSTABLE;
 
     writeHeader();
-    writeCrrWWW();
-    writeFooter("\n:)\n");
+
+    writeCrrWWWstable(state);
+
+    writeFooter("");
 
     return 0;
 

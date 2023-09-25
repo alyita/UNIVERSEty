@@ -1,0 +1,23 @@
+Disciplina, Fase, CH, Professor
+Programação Orientada a Objetos, 2, 80, Alexandre Perin de Souza
+Arquitetura e Organização de Computadores, 2, 80, Robson Costa
+Linguagens e Paradigmas de Programação, 2, 80, Wilson Castello Branco Neto
+Álgebra Linear e Geometria Analítica, 2, 80, Vilma Gisele Karsburg
+Introdução à Redes de Computadores, 2, 80, Robson Costa
+Grafos, 4, 40, Wilson Castello Branco Neto
+Fundamentos de Bancos de Dados, 4, 80, Fabio Aiub Sperotto
+Teoria da Computação, 4, 40, Wilson Castello Branco Neto
+Teoria da Computação, 4, 40, Alexandre Perin de Souza
+Introdução à Engenharia de Software, 4, 80, Alexandre Perin de Souza
+Cálculo Numérico, 4, 80, Vilma Gisele Karsburg
+Informática e Sociedade, 4, 40, Fernando Weber Albiero
+Computação Gráfica, 6, 80, Vilson Heck Junior
+Segurança Computacional, 6, 80, Robson Costa
+Eletiva I, 6, 80, Carlos Andres Ferrero
+Inteligência Artificial, 6, 80, Wilson Castello Branco Neto
+Sistemas Distribuídos, 6, 80, Robson Costa
+Trabalho de Conclusão de Curso, 8, 160, Alexandre Perin de Souza
+Eletiva III, 8, 80, Vilson Heck Junior
+Eletiva IV, 8, 80, Fernando Weber Albiero
+Gerência de Projetos, 8, 80, Leonardo Bravo Estacio
+

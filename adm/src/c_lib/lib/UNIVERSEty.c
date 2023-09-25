@@ -11,4 +11,6 @@ int main(){
      *  *knowledges[]
      * */
 
+    printf("module executed sucessfull!!\n");
+    return 0;
 }

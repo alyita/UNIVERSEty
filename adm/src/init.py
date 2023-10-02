@@ -1,17 +1,8 @@
-class CollegeClass:
-    _name = ""
-    _lvl = None
-    _workload = None
-
-    def __init__(self, name, lvl, workload):
-        _name = name
-        _lvl = lvl
-        _workload = workload
-        
-
+#!/bin/bash
 
 import ctypes
 import datetime
+
 
 UNIVERSEty = ctypes.CDLL('./c_lib/shared/UNIVERSIty.so')
 

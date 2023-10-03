@@ -9,7 +9,7 @@ UNIVERSEty = ctypes.CDLL('./c_lib/shared/UNIVERSIty.so')
 
 rooms, timelines,  teachers, college_classes = [], [], [], []
 matriz_data = []
-file_name = "data.txt"
+file_name = "import/cc.uni"
 
 
 def load_file():
@@ -19,13 +19,11 @@ def load_file():
             for line in file_data:
                 parts = line.strip().split(',')
                 if len(parts) == 4:
-                    college_classes.append(CollegeClass(parts[0:4]))
-                    teachers.append(parts[1])
-                    teachers.append(parts[2])
+                    college_classes.append(CollegeClass(*parts[0:3]))
                     teachers.append(parts[3])
                     len_insert+=1
-                else:
-                    print("(should be 4 elements comma separated):", line.strip())
+                elif len(parts)!=1:
+                    print(f"line {len_insert} error (should be 4 elements comma separated)")
                     raise Exception("file format exception")
 
             print(f"{len_insert} itens loaded!")
@@ -38,14 +36,9 @@ def load_file():
 
 
 def main():
+    print("Loading file...")
     load_file()
-    if len(matriz_data) == 0:
-        print("no data loaded from file. wanna insert manually the data?")
-        return
-    else:
-        print("load itens from file")
-
-    #for line in matriz_data:
+    print("[NOTE] this app verion assumes that there is a room for each class")
 
 
 if __name__ == "__main__":
